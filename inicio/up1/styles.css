@@ -2,3 +2,7 @@
 .visual img{border-radius:5px;box-shadow:0 12px 24px #133d4312}.visual figcaption{margin-top:10px}.product{gap:45px;padding-top:15px;padding-bottom:32px}.product-copy .intro{margin-bottom:22px}@media(max-width:760px){.product{gap:22px;padding-top:4px}.visual{max-width:410px}.visual img{width:100%}.visual figcaption{margin-top:8px}.product-copy .intro{margin-bottom:16px}}
 /* Mockup profesional v2: proporción horizontal y foco en el software. */
 .product{grid-template-columns:1.16fr .84fr;gap:38px}.visual img{border-radius:7px;box-shadow:0 13px 30px #133d4315}.visual figcaption{font-size:10px;line-height:1.5;margin-top:10px}@media(max-width:760px){.product{grid-template-columns:1fr;gap:22px}.visual{max-width:560px;width:100%}.visual figcaption{font-size:9px}}
+/* Aviso de moneda de la revisión USD. */
+.currency-note{margin:10px auto 0;text-align:center;color:var(--muted);font-size:11px;line-height:1.55}.currency-note strong{display:block;color:var(--ink);font-size:12px}.currency-note span{display:block}@media(max-width:760px){.currency-note{font-size:10px;margin-top:9px}.currency-note strong{font-size:11px}}
+/* Mantiene el iframe oficial dentro de la oferta en pantallas estrechas. */
+#hotmart-sales-funnel{min-width:0;max-width:100%}#hotmart-sales-funnel iframe{width:100%!important;min-width:0!important;max-width:100%;box-sizing:border-box}
