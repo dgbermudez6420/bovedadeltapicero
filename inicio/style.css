@@ -11,3 +11,15 @@
 .previous-price{font-size:18px;color:#d5dcca;margin-top:12px}.previous-price span{font-size:11px;margin-right:5px}.previous-price s{text-decoration-thickness:2px}.previous-price+.price{margin-top:2px}
 
 .pain-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;text-align:left;margin:26px 0}.pain-grid article{background:var(--paper);border:1px solid #e2d9ca;border-radius:8px;padding:22px}.pain-grid article>span{color:var(--orange);font-size:12px;font-weight:800;letter-spacing:1px}.pain-grid h3{font-size:17px;line-height:1.4;margin:10px 0;color:var(--green)}.pain-grid p{font-size:12px;line-height:1.7;color:var(--muted);margin:0}.pain-transition{max-width:840px;margin:24px auto 0;font-size:14px;line-height:1.8}.final .button{max-width:540px}.plan .button{line-height:1.6}@media(max-width:760px){.pain-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:540px){.pain-grid{grid-template-columns:1fr;gap:12px}.pain-grid article{padding:20px}.pain-grid h3{font-size:16px}.pain-grid p{font-size:12px}.pain-transition{font-size:13px}.final .button{line-height:1.6}}
+
+/* Customer comments immediately below the main offer. */
+#testimonios{padding:40px 0 44px}
+#testimonios h2{max-width:850px;margin:0 auto 14px}
+.testimonials-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:start;margin:28px auto 0}
+.testimonial-card{min-width:0;margin:0;background:#fff;border:1px solid #e2d9ca;border-radius:10px;box-shadow:0 6px 18px #172c2410}
+.testimonial-card a{display:block;overflow:hidden;border-radius:9px;color:var(--green);text-decoration:none}
+.testimonial-card img{display:block;width:100%;height:auto}
+.testimonial-expand{display:block;padding:11px 12px;font-size:12px;font-weight:600;text-align:center}
+.testimonial-card a:hover .testimonial-expand{background:var(--cream);text-decoration:underline}
+@media(max-width:760px){.testimonials-grid{grid-template-columns:1fr;max-width:420px;gap:20px}}
+@media(max-width:540px){#testimonios{padding:30px 0 34px}.testimonials-grid{margin-top:22px}}
